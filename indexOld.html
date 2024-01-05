@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/style.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="cardResult">
+      <div>
+        <div class="miniTitle">Your Result</div>
+        <div class="circle">
+          <div class="numResult">76</div>
+          <div>of 100</div>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="gradeText">Great</h2>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </div>
+
+    <div class="sumLabels">
+      <h1>Summary</h1>
+
+      <div id="containerOflabels">
+        <div class="label" id="reaction">
+          <div class="textPlusIcon">
+            <i class="icon"></i>
+            <span>Reaction</span>
+          </div>
+          <div class="numbers"> <span class="labelNum">80</span> / 100</div>
+        </div>
+
+        <div class="label" id="memory">
+          <div class="textPlusIcon">
+            <i class="icon"></i>
+            <span>Memory</span>
+          </div>
+          <div class="numbers"> <span class="labelNum">92</span> / 100</div>
+        </div>
+
+        <div class="label" id="verbal">
+          <div class="textPlusIcon">
+            <i class="icon"></i>
+            <span>Verbal</span>
+          </div>
+          <div class="numbers"> <span class="labelNum">61</span> / 100</div>
+        </div>
+
+        <div class="label" id="visual">
+          <div class="textPlusIcon">
+            <i class="icon"></i>
+            <span> Visual</span>
+          </div>
+          <div class="numbers"> <span class="labelNum">72</span> / 100</div>
+        </div>
+
+      </div>
+      <button class="btn">Continue</button>
+
+    </div>
+  </div>
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Maayan</a>.
+  </div>
+</body>
+<script type="module" src="./myScript.js"></script>
+
+</html>
